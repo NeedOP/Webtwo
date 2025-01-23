@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Teknik</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav>
+    <button class="hamburger" aria-label="Öppna meny">☰</button>
+    <ul class="nav-menu">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="about.html">Om mig</a></li>
+      <li><a href="tech.html">Teknik</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+      <li><a href="cv.html">CV</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="tech-section">
+    <h1>Teknik</h1>
+    <label for="filter">Filtrera efter ämne:</label>
+    <select id="filter">
+      <option value="all">Alla</option>
+      <option value="frontend">Frontend</option>
+      <option value="backend">Backend</option>
+      <option value="database">Databaser</option>
+    </select>
+    <div class="tech-articles">
+      <article data-category="frontend">
+        <h2>HTML och CSS</h2>
+        <img src="html-css.jpg" alt="HTML och CSS">
+        <p>Jag har lärt mig grunderna i HTML och CSS, inklusive hur man skapar
+          välstrukturerade webbsidor med semantiska HTML-element och stajlar
+          dem med CSS. Jag har arbetat med layouttekniker som Flexbox och Grid,
+          samt använt media queries för att skapa responsiva och användarvänliga
+          webbdesigns.</p>
+      </article>
+      <article data-category="backend">
+        <h2>Java</h2>
+        <img src="java.jpg" alt="Java">
+        <p>Jag har lärt mig grunderna i Java, inklusive objektorienterad
+          programmering med klasser, arv och metoder. Jag har också arbetat
+          med att hantera fel med undantag och skapat enklare applikationer,
+          både för konsol och grundläggande funktionalitet.</p>
+      </article>
+      <article data-category="database">
+        <h2>HSQL</h2>
+        <img src="hsql.jpg" alt="HSQL">
+        <p>Jag har lärt mig grunderna i HSQL, inklusive hur man skapar
+          och hanterar databaser, tabeller och förfrågningar.
+          Jag har arbetat med att skriva SQL-satser för att hämta, uppdatera
+          och radera data samt optimerat enklare databasstrukturer för
+          bättre prestanda.</p>
+      </article>
+      <article data-category="frontend">
+        <h2>Javascript</h2>
+        <img src="javascript.jpg" alt="JavaScript">
+        <p>Jag har lärt mig grunderna i JavaScript, inklusive hur man
+          manipulerar DOM, hanterar händelser och skapar dynamiska gränssnitt.
+          Jag har också arbetat med funktioner, loopar och villkor för att bygga
+          interaktiva och responsiva webbapplikationer.</p>
+      </article>
+      <article data-category="backend">
+        <h2>Problemhantering</h2>
+        <img src="problem.jpg" alt="Hantera problem">
+        <p>Jag har lärt mig att hantera problem genom att felsöka kod,
+          identifiera fel och implementera lösningar. Detta inkluderar att
+          analysera felmeddelanden, använda loggning för att spåra buggar
+          och bryta ner komplexa problem i mindre, hanterbara delar för
+          att effektivt lösa dem.</p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>© 2025 Min Portfolio</p>
+</footer>
+<script src="scripts.js" defer></script>
+</body>
+</html>
